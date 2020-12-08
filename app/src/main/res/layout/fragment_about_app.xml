@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E4F1"
+    tools:context=".fragment.AboutAppFragment">
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutApp_fragment"
+        android:textSize="25sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#122498"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBody"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="italic"
+        android:textColor="#8F0424"
+        android:textSize="18dp"
+        android:layout_below="@+id/tvHeading"
+        android:layout_centerHorizontal="true"
+        android:lineHeight="30dp"
+        android:lineSpacingExtra="7dp"
+        android:text="BookHub is a book app which gives you the details like price, author and ratings of few popular books.\nThis app also gives you a brief description about the book on tapping. You have several features like adding to favorites sort by ratings and many more.\nHope you'd enjoy reading them. Have a great day"/>
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BookHub</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="about_app">About</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="favorites_fragment">Favorites Fragment</string>
+    <string name="profile_fragment">About the Developer</string>
+    <string name="aboutApp_fragment">About App</string>
+    <string name="action_sort">Sort</string>
+    <string name="text_profile">Hello! I am Medhana Jallepalli. I\'ve developed this app with the help of Internshala\'s training program. I\'m currently pursuing my
+    3rd year of Computer Science. My fields of interest are Android App Development and Machine Learning.</string>
+
+</resources>
